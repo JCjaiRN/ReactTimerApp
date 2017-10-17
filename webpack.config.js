@@ -1,3 +1,4 @@
+var React = require('react');
 var webpack = require('webpack');
 
 module.exports = {
@@ -25,6 +26,7 @@ module.exports = {
 			Navigation: 'app/components/Navigation.jsx',
 			Timer: 'app/components/Timer.jsx',
 			Countdown: 'app/components/Countdown.jsx',
+			Clock: 'app/components/clock.jsx',
 			ApplicationStyles: 'app/styles/app.scss'
 		},
 		extensions: ['', '.js', '.jsx']
