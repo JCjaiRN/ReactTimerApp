@@ -5,8 +5,8 @@ var $ = require('jQuery');
 var TestUtils = require('react-addons-test-utils');
 var Clock = require('Clock');
 
-describe('Clock', () => {
-  it('should', () => {
+describe('Clock tests', () => {
+  it('should exist', () => {
     expect(Clock).toExist();
   });
 
