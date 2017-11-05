@@ -1,5 +1,6 @@
 var React = require('react');
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
 	entry: [
@@ -43,6 +44,11 @@ module.exports = {
 				test: /\.jsx?$/,
 				exclude: /(node_modules|bower_components)/
 			}
+		]
+	},
+	sassLoader: {
+		includePaths: [
+			path.resolve(__dirname, './node_modules/foundation-sites/scss')
 		]
 	},
 	devtool: 'cheap-module-eval-source-map'
