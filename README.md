@@ -1,7 +1,8 @@
 # ReactTimerApp
 React.js Timer/stopwatch
 
-Enter a city and state to get the current weather from openweathermap.org
+Timer module that increases by seconds
+Countdown module that decreases by specified seconds to zero
 
 ## NPM Commands
 "npm run test": starts Karma Unit tests
